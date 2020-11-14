@@ -9,6 +9,8 @@ All the transcripts are available
 
 ## Loading MORSE
 
+Dropbox [link](https://www.dropbox.com/s/yz0qohdp5hpdxaq/Dropbox_MORSE.zip?dl=0)
+
 Features for Transformer models can be directly loaded from tf_features/;
 
 The transcripts and visual/acoustic feature sequences aligned to each word can be found in processed_features/ (for action units), and processed_features_facenet/ (for facenet). They are organized in tuples (clip_name, label, transcription, smoothed_seq), where smoothed_seq has the form \[{'word','facenet_feature/landmark_feature','audio_grp'}\].
@@ -59,3 +61,13 @@ Use get_textual_reps.py to compute textual embedding with the checkpoint you sel
 Use transformer_joint_from_bert.py to load the textual embeddings (under reps/) and run joint fine-tuning for several epochs.
 
 You can load reps/fine_tuned_sp4.pkl for quick results, it is the textual embeddings computed using a checkpoint in the step-1 fine-tuning, under cv5_ids\[4\] splitting.
+
+## Dependencies
+
+Python3
+
+Pytorch
+
+Transformers
+
+
