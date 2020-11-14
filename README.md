@@ -5,7 +5,8 @@ For paper "MORSE: MultimOdal sentiment analysis for Real-life SEttings"
 
 According to privacy terms, we only release the pre-processed facenet and action unit features for visual modality.
 We only release the extracted covarep feature sequences for acoustic modality.
-All the transcripts are available
+
+All the transcripts are available.
 
 ## Loading MORSE
 
